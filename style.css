@@ -21,7 +21,9 @@ padding-left: 5%;
 }
 
 nav img{
-  float: left;
+
+padding-top: 1%;
+ float:left;
  margin-left: 10%;
 
   
@@ -66,7 +68,7 @@ section img{
   left:0;
   top:0;
   max-width: 100%;
-  z-index: 0;
+  z-index: -1;
 
 }
 
@@ -81,7 +83,7 @@ padding-left: 10% ;
 padding-right: 10% ;
     -webkit-transition: all 0.5s ease-in;
     transition: all 0.5s ease-in;
-
+z-index: 998;
 }
 
 
@@ -95,7 +97,7 @@ line-height: 75px;
 font-size: 65px;
 padding-top: 10%;
 padding-bottom:5%;
-z-index: 3;
+z-index: 998;
 }
 
 
@@ -116,16 +118,18 @@ section input{
  border: 0;
  border-radius: 10px;
  height: 100%;
-z-index: 998;
+z-index: 001;
 }
 form input[type="submit"]{ 
  opacity:0.85;
   color: white;
   background-color: #acd373;
+
   }
 section article{
+ 
   background-color: black;
-  border:  5px solid red;
+  border:  100px solid red;
   max-height: 100%;}
 section article left{
 float: left;
@@ -138,10 +142,10 @@ width:50%;
 section article right
 {
   float: right;
-
+text-align: right;
 
 width:50%;
- text-align: right;
+ 
   
 
 }
