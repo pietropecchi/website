@@ -11,13 +11,15 @@ body {
 }
 
 
-nav ul{margin-right: 10%}
+nav ul{margin-right: 10%;
+
+  }
 nav ul li{
   display: inline-block;
  /*    letter-spacing: 1px;*/
 
 padding-left: 5%;
-
+padding-top:10px;
 }
 
 nav img{
@@ -25,6 +27,8 @@ nav img{
 padding-top: 1%;
  float:left;
  margin-left: 10%;
+max-height: 100px;
+padding-bottom: 1%;
 
   
 }
@@ -42,10 +46,9 @@ nav  {
   	color: #5f5f5f;
     background-color: #fffdea;
    opacity: 1;
-  
   position: fixed;
     top: 0px;
-line-height:100px;
+line-height:80px;
     width: 100%;
     -webkit-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
@@ -63,7 +66,7 @@ text-transform: uppercase;
 
 
 
-section img{
+section main img{
   position: absolute;
   left:0;
   top:0;
@@ -73,9 +76,9 @@ section img{
 }
 
 section {
-  max-width: 1440px;
+
 position: relative;
-top:100px;
+top:80px;
 
 width: 100%;
 
@@ -87,7 +90,7 @@ z-index: 998;
 }
 
 
-section h1{
+section main h1{
   opacity: 0.8  ;
 color:white;
 text-shadow: 3px 3px 3px #5f5f5f;
@@ -111,7 +114,8 @@ section input{
   background-color: white;
   text-align: center;
   width: 400px;
- margin-top:  5%;
+ margin-top:  1%;
+  margin-bottom:  4%;
  font-size: 20px;
  font-weight: 700;   
  line-height: 55px;
@@ -126,31 +130,134 @@ form input[type="submit"]{
   background-color: #acd373;
 
   }
-section article{
+article{
+ margin-top: 9%;
  
-  background-color: black;
-  border:  100px solid red;
-  max-height: 100%;}
-section article left{
+ 
+}
+ article left{
 float: left;
 text-align: left;
 
 width:50%;
- 
+padding-top: 5%;
+
 
 }
-section article right
+ article right
 {
   float: right;
 text-align: right;
-
+font-size: 30px;
+padding-top: 7%;
+padding-bottom:7%;
 width:50%;
+color:#5f5f5f;
  
-  
+ 
 
 }
 
+article h1{
 
+color:#5f5f5f;
+opacity: 1;
+text-shadow:0px 0px 0px;
+ font-weight: 500;
+line-height: 75px;
+font-size: 65px;
 
+z-index: 998;
+}
 
+description{
+ 
+ border-top-color: #5f5f5f;
+ border-top-style: solid;
+ border-top-width: 2px;
+padding-top: 3%;
+margin-left: 10%;
+margin-right: 10%;
+padding-bottom: 3%;
 
+ text-align: center;
+ max-width: 100%;
+ display: inline-block;
+}
+description h2{
+  
+  color:#5f5f5f;
+   font-weight: 700;
+   font-size: 20px;
+}
+description p{
+  padding-left: 13%;
+  padding-right: 13%;
+  color:#5f5f5f;
+   font-weight: 500;
+   font-size: 20px;
+}
+
+blocks {
+   display: inline-block;
+
+  max-width: 100%;
+
+  }
+  
+  
+row1 img{
+
+    max-width: 33.33%;
+    float: left;
+  height: auto;
+    width: auto;
+  
+}
+row2 img{
+ float: left;
+    max-width: 50%;
+  height: auto;
+    width: auto;
+
+}
+h2 {
+ text-align: center; 
+  font-weight: 700;
+  
+}
+footer {
+  
+  background-color: #acd373;
+ text-align: center; 
+  max-width: 100%;
+}
+
+footer input {
+display: inline;
+  opacity:0.7;
+  color:#5f5f5f;
+  text-align: center;
+  width: 300px;
+ font-size: 15px;
+ font-weight: 700;   
+ line-height: 45px;
+ border-radius: 10px;
+z-index: 001;
+margin-right: 5%;
+margin-left: 2%;
+}
+
+footer input[type="submit"]{ 
+
+  color: white;
+  background-color: red;
+   font-size: 20px;
+
+  }
+ foorer social {
+   margin: 5%;
+   
+  
+    
+  }
