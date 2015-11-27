@@ -128,7 +128,7 @@ form input[type="submit"]{
 
   }
 article{
- margin-top: 9%;
+ margin-top: 3%;
  
  margin-left: 3%;
 margin-right: 3%;
@@ -373,7 +373,7 @@ margin-bottom: 3%;
 footer input[type="submit"]{ 
 
   color: white;
-  background-color: red;
+  background-color: #ff5500;
    font-size: 20px;
 
   }
