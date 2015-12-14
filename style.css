@@ -1,10 +1,12 @@
-
 .page-wrap {
   text-align: left;
   max-width: 1440px;
   margin: auto;
  background-color: #fffdea;
+  font-family:  'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
 }
+
 
 
 nav ul{
@@ -19,6 +21,7 @@ padding-top:10px;
 }
 
 
+
 nav img{
 
 padding-top: 1%;
@@ -27,7 +30,7 @@ padding-top: 1%;
 max-height: 100px;
 padding-bottom: 1%;
 
-  
+
 }
 
 li a {text-decoration: none;
@@ -119,7 +122,7 @@ section input{
   background-color: white;
   text-align: center;
   width: 400px;
- margin-top:  1%;
+ 
   margin-bottom:  4%;
  font-size: 20px;
  font-weight: 700;   
@@ -136,39 +139,41 @@ form input[type="submit"]{
 
   }
 article{
- margin-top: 3%;
  
+ vertical-align: middle;
+  color:#5f5f5f;
  margin-left: 3%;
 margin-right: 3%;
-}
-article h1 {
-   color:#5f5f5f;
-   font-weight: 700;
 
-opacity: 1;
-text-shadow:0px 0px 0px;
- font-weight: 500;
-line-height: 75px;
-font-size: 65px;
+
+
 }
+
  article left{
+
 float: left;
 text-align: left;
 
-width:50%;
-padding-top: 5%;
+width:40%;
+
+opacity: 1;
+text-shadow:0px 0px 0px;
+
+line-height: 75px;
 
 
 }
- article right
-{
+ article right{
+   
+
+height:auto;
+
   float: right;
 text-align: right;
-font-size: 30px;
-padding-top: 7%;
-padding-bottom:7%;
-width:50%;
-color:#5f5f5f;
+font-size: 25px;
+
+width:60%;
+
  
  
 
@@ -182,6 +187,7 @@ description{
  border-top-style: solid;
  border-top-width: 2px;
 padding-top: 3%;
+margin-top: 3%;
 margin-left: 3%;
 margin-right: 3%;
 padding-bottom: 3%;
@@ -314,7 +320,7 @@ position: absolute;
 
 card{
 
- height: 600px;
+ height: 500px;
  max-width: 25%;
  float: left;
 padding-bottom: 3%;
@@ -369,10 +375,21 @@ padding: 0;
 
   z-index: 001;
 }
+
 footer img{
-  margin:40px;
+
+  margin-top:40px;
   
 }
+
+fnote {
+
+    color: white;
+
+
+}
+
+
 footer input {
 
   opacity:0.7;
@@ -383,7 +400,7 @@ footer input {
  font-weight: 700;   
  line-height: 35px;
  border-radius: 10px;
-
+margin-top: 3%;
 margin-right: 2%;
 margin-left: 2%;
 margin-bottom: 3%;
