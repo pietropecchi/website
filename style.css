@@ -123,7 +123,8 @@ z-index: 998;
 
 
 
-section input{
+section input,
+section textarea {
   opacity:0.7;
   color:#5f5f5f;
   background-color: white;
@@ -145,6 +146,26 @@ form input[type="submit"]{
   background-color: #acd373;
 
   }
+  
+  section contacts input,
+  section contacts textarea
+  {
+    font-size: 15px;
+    line-height: 35px;
+    margin-bottom: 10px;
+  }
+ contacts {
+
+    text-align:center;
+
+    width:100%;
+padding:100px;
+
+  }
+  
+  
+  
+  
 article{
  
  vertical-align: middle;
@@ -403,7 +424,7 @@ footer input {
   color:#5f5f5f;
   text-align: center;
   width: 250px;
- font-size: 12x;
+ font-size: 15px;
  font-weight: 700;   
  line-height: 35px;
  border-radius: 10px;
